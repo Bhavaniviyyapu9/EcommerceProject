@@ -9,7 +9,7 @@ function App() {
     <h1>This Is E-Commerce Project</h1>
     <h1>Pushpa</h1>
      <h1>Althaf</h1> 
-     <p>This is Bhavani</p>
+  
     </div>
   );
 }
