@@ -9,6 +9,7 @@ function App() {
     <h1>This Is E-Commerce Project</h1>
     <h1>Pushpa</h1>
     <h1>how are you</h1>
+    <h1>tinnara</>
     </div>
   );
 }
