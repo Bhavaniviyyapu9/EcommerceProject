@@ -12,6 +12,7 @@ function App() {
     <h1>tinnara</h1>
     <h1>em chestunnaru</h1>
     <h1>naku push and pull vachesindhile</h1>
+    <h1>inka deeni kosam sir daggariki vellakkarledhule</h1>
     </div>
   );
 }
