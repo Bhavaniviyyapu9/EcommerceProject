@@ -14,7 +14,6 @@ function App() {
     <h1>naku push and pull vachesindhile</h1>
     <h1>inka deeni kosam sir daggariki vellakkarledhule</h1>
     <h3>puspha fast ga ravali</h3>
-
     </div>
   );
 }
