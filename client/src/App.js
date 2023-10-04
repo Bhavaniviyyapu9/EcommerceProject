@@ -16,6 +16,7 @@ function App() {
     <h3>puspha fast ga ravali</h3>
     <h1>hello</h1>
     <h1>How are you all!</h1>
+    <p>E-Commerce Project</p>
     </div>
   );
 }
