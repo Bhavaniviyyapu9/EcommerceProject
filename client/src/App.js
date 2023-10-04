@@ -1,9 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MainComp from './components/home/MainComp';
 
 function App() {
   return (
     <div className="App">
+      <>
+      <MainComp/>
+      </>
 
     </div>
   );
