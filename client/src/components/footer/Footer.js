@@ -39,6 +39,7 @@ const Footer = () => {
         </div>
 
         <div className='lastdetails'>
+            <img src="https://cdn.dribbble.com/users/2948332/screenshots/5926397/4.jpg" alt=""/>
             <p>Conditions of Use & Sale &nbsp; &nbsp;&nbsp;  Privacy Notice  &nbsp; &nbsp;&nbsp; Interest-Based Ads  &nbsp; &nbsp;&nbsp;  © 1996-{year}, Amazon.com, Inc. or its affiliates</p>
         </div>
 

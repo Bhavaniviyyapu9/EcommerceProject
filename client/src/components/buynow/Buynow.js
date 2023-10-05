@@ -24,7 +24,7 @@ const Buynow = () => {
                     <h3 className='differentprice'>₹4049.00</h3>
                     <p className='unusuall'>Usually dispatched in 8 days.</p>
                     <p>Eligible for Free Shipping</p>
-                    {/* <img src=""></img> */}
+                    <img src="https://cdn.dribbble.com/users/2948332/screenshots/5926397/4.jpg" alt=''></img>
                     <Option/>
                 </div>
                     <h3 className='item_price'>₹4049.00</h3>

@@ -4,7 +4,7 @@ import React from 'react'
 const Right = () => {
   return (
     <div className='right_buy'>
-      <img src="" alt=""/>
+      <img src="https://cdn.dribbble.com/users/2948332/screenshots/5926397/4.jpg" alt=""/>
       <div className='cost_right'>
         <p>Your order is eligible for Free Delivery.</p> <br/>
         <span style={{color:"#565959"}}>Select this option at checkout. Details</span>
