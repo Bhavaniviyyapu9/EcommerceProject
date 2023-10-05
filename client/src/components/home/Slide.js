@@ -23,44 +23,45 @@ const responsive = {
 function Slide({title}) {
   return (
     <div className='products_section'>
+
         <div className='products_deal'>
-           <h3>{title}</h3>
-           <button className='view-btn'>view all</button>
+            <h3>{title}</h3>
+            <button className='view_btn'>View All</button>
         </div>
 
         <Divider/>
 
         <Carousel
+
             responsive={responsive}
             infinite={true}
             draggable={false}
             swipeable={true}
             showDots={false}
-            centermode={true}
+            centerMode={true}
             autoPlay={true}
             autoPlaySpeed={4000}
             keyBoardControl={true}
             removeArrowOnDeviceType={["tablet", "mobile"]}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
-            containerClass="carasueal-container"
+            containerClass="carousel-container"
             >
                 {
                     products.map((e)=>{
                         return(
-                            <div className='product_items'>
+                            <div className='products_items'>
                             <div className='product_img'>
                                 <img src={e.url} alt='productitem'></img>
                             </div>
-                            <p className='product_name'>{e.title.shortTitle}</p>
-                            <p className='product_offer'>{e.discount}</p>
-                            <p className='product_explore'>{e.tagline}</p>
+                            <p className='products_name'>{e.title.shortTitle}</p>
+                            <p className='products_offer'>{e.discount}</p>
+                            <p className='products_explore'>{e.tagline}</p>
 
                             </div>
                         )
                     })
                 }
-
 
         </Carousel>
 

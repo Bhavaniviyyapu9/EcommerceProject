@@ -16,6 +16,7 @@ export const products = [
         discount: 'Extra 10% Off', 
         tagline: 'Deal of the day' 
     },
+
     { 
         id: 'product2',
         url: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70', 
@@ -33,6 +34,7 @@ export const products = [
         discount: 'From 99+5% Off', 
         tagline: 'Pestige, Nova & more' 
     },
+
     { 
         id: 'product3',
         url: 'https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
@@ -50,6 +52,7 @@ export const products = [
         discount: 'Upto 70% Off', 
         tagline: 'Deal of the Day' 
     },
+
     { 
         id: 'product4',
         url: 'https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70', 
@@ -67,6 +70,7 @@ export const products = [
         discount: 'Grab Now', 
         tagline: 'Best Seller' 
     },
+
     { 
         id: 'product5',
         url: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70',
