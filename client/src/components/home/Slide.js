@@ -5,9 +5,6 @@ import "react-multi-carousel/lib/styles.css";
 import {products} from "./Productdata.js";
 import "./slide.css";
 
-
-
-
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
