@@ -1,8 +1,8 @@
 import { Divider } from '@mui/material';
-import React from 'react'
+import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import {products} from "./Productdata.js";
+import { products } from "./Productdata.js";
 import "./slide.css";
 
 const responsive = {

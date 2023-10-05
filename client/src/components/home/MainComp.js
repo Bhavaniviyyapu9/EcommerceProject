@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner from './Banner'
-import "./home.css"
-import Slide from './Slide'
+import Banner from './Banner';
+import "./home.css";
+import Slide from './Slide';
 // import "./slide.css";
 
 function MainComp() {
