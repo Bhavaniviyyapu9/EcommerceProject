@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css";
+import Buynow from '../buynow/Buynow';
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -42,6 +43,8 @@ const Footer = () => {
         </div>
 
     </footer>
+
+    
     
     
   )
