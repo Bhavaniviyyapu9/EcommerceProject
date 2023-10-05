@@ -29,7 +29,7 @@ const SignUp = () => {
     <section>
       <div className="sign_container">
         <div className="sign_header">
-          <img src="./Signup/logoimg.png" alt="ecommercelogo"></img>
+          <img src="./Signup/logo.jpeg" alt="ecommercelogo"></img>
         </div>
 
         <div className="sign_form">
