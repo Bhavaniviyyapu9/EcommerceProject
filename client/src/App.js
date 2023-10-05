@@ -19,14 +19,15 @@ function App() {
 <>
     <Navbaar/> 
     <Newnav/>  
-    <Cart/>
-    <Footer/>
-    <Buynow/>
+    
     <Routes>
          <Route  path="/"  element={<Maincomp/>} />
-          <Route path="/login" element={<Sign_in/>}/>
           <Route  path='/register'  element={<SignUp/>} />
+          <Route path="/login" element={<Sign_in/>}/>
     </Routes>
+    <Cart/>
+    <Buynow/>
+    <Footer/>
   
      </>
 
