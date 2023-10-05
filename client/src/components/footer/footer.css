@@ -12,6 +12,7 @@ footer .footer_container{
     align-items: flex-start;
     position: relative;
     top: 30px;
+    
 }
 
 footer .footer_container .footr_details_one h3{
@@ -30,7 +31,7 @@ footer .footer_container .footr_details_one p{
 
 footer .lastdetails{
     background-color: #131a22;
-    height: 20vh;
+    height: 30vh;
 }
 
 footer img{
