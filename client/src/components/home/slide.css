@@ -18,7 +18,7 @@
 
 .slide_part .right_slide{
     width: 20%;
-    height:650px;
+    height:365px;
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
@@ -31,6 +31,7 @@
     display: block;
     /* margin-top: 13px; */
     width: 80%;
+    /* border-radius: none; */
     margin: 13px auto;
 }
 
@@ -41,7 +42,7 @@
 }
 
 .slide_part .right_slide img{
-    height:275px;
+    height:270px;
     width:90%;
 }
 
@@ -50,7 +51,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
-    padding: 20px;
+    padding: 8px 20px;
 }
 
 .products_section .products_deal h3{
@@ -97,6 +98,7 @@
 
 .products_section .products_items p{
     font-size: 14px;
+    margin: 5px 0;
 }
 
 

@@ -1,36 +1,37 @@
 import React from 'react'
-import Banner from './Banner'
-import "./home.css"
-import Slide from './Slide'
+import Banner from './Banner';
+import "./home.css";
+import Slide from './Slide';
 // import "./slide.css";
 
 function MainComp() {
   return (
     <div className='home_section'>
-        <div className='banner_part'>
-           <Banner/>
-        </div>
-        <div className='slide_part'>
-           <div className='left_slide'>
-           <Slide title="deal's of the day"/>
-           </div>
-             <div className='right_slide'>
-             <h4  style={{marginTop:"80px",fontSize:"20px"}}>Festive launches latest</h4>
-             <img style={{height:"450px"}} src="https://image4.slideserve.com/7707206/amazon-great-indian-festival-sale-2017-l.jpg" alt='...'></img>
-             <a href='#'>see more</a>
-           </div>
-        </div>
-        <br></br>
-        <br></br>
-        <div>
-        <Slide title="today's deals"/>
-        </div>
-           <div className='center_img'>
-           <img src='https://thegood.com/wp-content/uploads/image3-4-1024x583.png' alt='...'></img>
-           </div>
-       <Slide title="best sellers"/>
-       <Slide title="up to 80% off"/>
 
+      <div className='banner_part'>
+           <Banner/>
+      </div>
+
+      <div className='slide_part'>
+
+        <div className='left_slide'>
+            <Slide title="Deal of the day"/>
+        </div>
+
+        <div className='right_slide'>
+            <h4>Festive latest launches</h4>
+            <img src='https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Jupiter/Launches/T3/DesktopGateway_CategoryCard2x_758X608_T3._SY608_CB639883570_.jpg' alt="rightimg"></img>
+            <a href='#'>see more</a>
+        </div>
+
+      </div>
+
+        <Slide title="Today's Deal"/>
+        <div className='center_img'>
+            <img src='https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg' alt=""></img>
+        </div>
+        <Slide title="Best Seller"/>
+        <Slide title="Upto 80% off"/>
 
     </div>
   )

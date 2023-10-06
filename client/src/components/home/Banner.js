@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-material-ui-carousel'
+import Carousel from 'react-material-ui-carousel';
 import "./banner.css";
 
 const data = [
@@ -21,9 +21,9 @@ function Banner() {
     navButtonsProps={
         {
             style:{
-                backgroundcolor:"#fff",
-                color: "#494949",
-                borderRadious:0,
+                backgroundColor:"white",
+                color: "black",
+                borderRadius:0,
                 marginTop:-22,
                 height:"104px"
 
