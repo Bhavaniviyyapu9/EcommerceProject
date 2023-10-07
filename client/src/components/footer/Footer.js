@@ -1,6 +1,6 @@
 import React from 'react'
 import "./footer.css";
-import Buynow from '../buynow/Buynow';
+// import Buynow from '../buynow/Buynow';
 
 const Footer = () => {
     const year = new Date().getFullYear();
