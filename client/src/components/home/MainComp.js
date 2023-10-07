@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from './Banner';
 import "./home.css";
 import Slide from './Slide';
-// import "./slide.css";
+import { getProducts } from '../redux/actions/action';
+import { useDispatch,useSelector} from "react-redux"
 
 function MainComp() {
+
+  const {products} = useSelector(state=>state.getproductsdata);
+  console.log(products);
+
+  const dispatch = useDispatch ();
+
+  useEffect(()=>{
+    dispatch(getProducts());
+  },[dispatch])
   return (
     <div className='home_section'>
 
@@ -17,6 +27,7 @@ function MainComp() {
         <div className='left_slide'>
             <Slide title="Deal of the day"/>
         </div>
+
 
         <div className='right_slide'>
             <h4>Festive latest launches</h4>
