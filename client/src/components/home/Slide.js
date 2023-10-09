@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 // import { products } from "./Productdata.js";
 import "./slide.css";
+import {NavLink} from "react-router-dom";
 
 
 
@@ -58,7 +59,8 @@ const Slide = ({ title, products }) => {
                     products.map((e)=>{
                     
                         return(
-                          
+                          <NavLink to={`/getproductsone/${e.id}`}>
+
                             <div className='products_items'>
                             <div className='product_img'>
                                 <img src={e.url} alt='productitem'></img>
@@ -68,7 +70,7 @@ const Slide = ({ title, products }) => {
                             <p className='products_explore'>{e.tagline}</p>
 
                             </div>
-                            
+                            </NavLink>
                         )
                     })
                 }

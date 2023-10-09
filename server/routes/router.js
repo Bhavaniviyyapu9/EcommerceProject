@@ -2,6 +2,7 @@
 const express = require("express");
 const router = new express.Router(); 
 const Products = require("../models/productSchema");
+const USER=require("../models/userSchema");
 
 
 
@@ -27,9 +28,15 @@ router.get("/getproductsone/:id",async(req,res)=>{
         // console.log(individualdata + "individual data");
         res.status(201).json(individualdata);
     } catch (error) {
-       res.status(201).json(individualdata) ;
+       res.status(400).json(individualdata) ;
        console.log("error" + error.message);
     }
+});
+
+// register data
+
+router.post("/register",async(req,res)=>{
+    console.log(req.body);
 })
 
 
