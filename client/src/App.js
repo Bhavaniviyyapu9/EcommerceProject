@@ -14,7 +14,7 @@ import Buynow from './components/buynow/Buynow';
 
 function App() {
   return (
-    <div className='App'>
+  
       
 <>
     <Navbaar/> 
@@ -22,16 +22,16 @@ function App() {
     
     <Routes>
          <Route  path="/"  element={<Maincomp/>} />
-          <Route  path='/register'  element={<SignUp/>} />
-          <Route path="/login" element={<Sign_in/>}/>
+         <Route path="/login" element={<Sign_in/>}/>
+         <Route  path="/register"  element={<SignUp/>} />
+         <Route path="/getproductsone/:id" element={<Cart/>}/>
+         <Route path="/buynow" element={<Buynow/>}/>
     </Routes>
-    <Cart/>
-    <Buynow/>
     <Footer/>
   
      </>
 
-</div>
+
 
 
   );

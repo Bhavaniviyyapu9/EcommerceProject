@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./cart.css";
 import { Divider } from '@mui/material';
+import { useParams } from 'react-router-dom';
 
-function Cart() {
+const Cart = () => {
+
+
+   
   return (
     <div className='cart_section'>
 
